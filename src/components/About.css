@@ -1,0 +1,31 @@
+@import './shared.css';
+
+/* Additional About-specific styles can be added here */
+
+/* Add more floating card positions for a filled look */
+.card-1 { top: 10%; left: 10%; animation-delay: 0s; }
+.card-2 { top: 30%; right: 10%; animation-delay: 0.5s; }
+.card-3 { bottom: 10%; left: 20%; animation-delay: 1s; }
+.card-4 { top: 60%; left: 5%; animation-delay: 1.5s; }
+.card-5 { top: 15%; right: 25%; animation-delay: 2s; }
+.card-6 { bottom: 25%; right: 10%; animation-delay: 2.5s; }
+.card-7 { top: 50%; right: 20%; animation-delay: 3s; }
+.card-8 { bottom: 10%; right: 25%; animation-delay: 3.5s; }
+.card-9 { top: 40%; left: 35%; animation-delay: 4s; }
+.card-10 { bottom: 40%; right: 30%; animation-delay: 4.5s; }
+
+@media (max-width: 1024px) {
+  .about-image {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-image {
+    height: 250px;
+  }
+  .floating-card {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+} 
